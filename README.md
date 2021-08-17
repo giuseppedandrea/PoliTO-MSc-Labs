@@ -11,6 +11,8 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
     * [LAB 07 - ARM Assembly](ASE/LAB_07)
     * [LAB 08 - ARM Assembly](ASE/LAB_08)
     * [LAB 09 - LandTiger Development Board](ASE/LAB_09)
+    * [EXTRA POINTS 01 - Blind Labyrinth game (part 1)](ASE/EXTRA_POINTS_01)
+    * [EXTRA POINTS 02 - Blind Labyrinth game (part 2)](ASE/EXTRA_POINTS_02)
 * **[Applicazioni Web 1 (AW1)](AW1)** - *a.y. 2020/2021*
     * [LAB 01 - Getting started with Node.js](AW1/LAB_01)
     * [LAB 02 - Getting started with HTML and CSS](AW1/LAB_02)
