@@ -1,0 +1,81 @@
+a.  Trovare tutti i ristoranti con costo “medium”
+
+    db.restaurants.find({cost:'medium'}).pretty()
+
+b.  Trovare tutti i ristoranti il cui valore di review è maggiore di 4 ed il costo è “medium” oppure “low”
+
+    db.restaurants.find({review:{$gt:4},
+                         $or:[{cost:'medium'},{cost:'low'}]
+                        }).pretty()
+
+c.  Trovare tutti i ristoranti che possono ospitare più di 5 persone (maxPeople) e:
+        i. hanno un tag che contiene “italian” oppure “japanese” e hanno costo “medium” oppure “high”
+        OPPURE:
+        ii. hanno un tag che non contiene né “italian” né “japanese” e hanno review maggiore di 4.5
+
+    db.restaurants.find({maxPeople:{$gt:5},
+                         $or:[{tag:{$in:['italian','japanese']},
+                               cost:{$in:['medium','high']}},
+                              {tag:{$nin:['italian','japanese']},
+                               review:{$gt:4.5}}
+                             ]
+                        }).pretty()
+
+d.  Calcolare il valore di review medio di tutti i ristoranti
+
+    db.restaurants.aggregate([{$group:{_id:null,avg:{$avg:'$review'}}}])
+
+e.  Contare il numero di ristoranti il cui valore di review è maggiore di 4.5 e che possono ospitare più di 5 persone
+
+    db.restaurants.aggregate([{$match:{review:{$gt:4.5},maxPeople:{$gt:5}}},
+                              {$group:{_id:null,count:{$sum:1}}}
+                             ])
+
+f.  Eseguire la query d) usando il paradigma Map-Reduce
+
+    db.restaurants.mapReduce(function() {
+                                    emit(null, this.review);
+                             },
+                             function(key, values) {
+                                    return Array.avg(values);
+                             },
+                             {out:"restaurants_reviews_avg"})
+
+g.  Eseguire la query e) usando il paradigma Map-Reduce
+
+    db.restaurants.mapReduce(function() {
+                                    emit(null, 1);
+                             },
+                             function(key, values) {
+                                    return Array.sum(values);
+                             },
+                             {query : { review:{$gt:4.5},
+                                        maxPeople:{$gt:5}
+                             },
+                             out : "restaurants_reviewsGT5_maxPGT5"})
+
+h.  Trovare il ristorante più vicino al punto [45.0644, 7.6598]
+    Consiglio: ricordarsi di creare un “geospatial index”.
+
+    db.restaurants.createIndex({location: "2dsphere"})
+    db.restaurants.findOne({location : {
+                                    $near : {
+                                        $geometry : {
+                                            type: "Point",
+                                            coordinates: [45.0644,7.6598]
+                                        }
+                                    }
+                           }})
+
+i.  Trovare il numero di ristoranti che sono entro 500 metri dal punto [45.0623,7.6627]
+
+    db.restaurants.createIndex({location: "2dsphere"})
+    db.restaurants.find({location : {
+                                $near : {
+                                    $geometry : {
+                                        type: "Point",
+                                        coordinates: [45.0644,7.6598]
+                                    },
+                                    $maxDistance: 500
+                                }
+                        }}).count()

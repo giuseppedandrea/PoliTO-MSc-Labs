@@ -1,0 +1,12 @@
+﻿[
+{"_id":"001","name":"ToorSeafoodrestaurant","tag":["seafood","expensive"],"orderNeeded":false,"maxPeople":100,"review":4.3,"cost":"medium","location":{"type":"Point","coordinates":[45.0664,7.6609]},"contact":{"phone":"+390223456245","facebook":"ToorSeaFood"}},
+{"_id":"002","name":"PandaParadise","tag":["chinese","japanese"],"orderNeeded":false,"maxPeople":50,"review":4.7,"cost":"low","location":{"type":"Point","coordinates":[45.0671,7.6627]},"contact":{"phone":"+395487634998","facebook":"PandaP"}},
+{"_id":"003","name":"Stagione","tag":["italian","pizza"],"orderNeeded":false,"maxPeople":10,"review":3.8,"cost":"low","location":{"type":"Point","coordinates":[45.0698,7.6634]},"contact":{"phone":"+390223456245"}},
+{"_id":"004","name":"Takitai","tag":["tai","spicy"],"orderNeeded":true,"maxPeople":150,"review":4.2,"cost":"high","location":{"type":"Point","coordinates":[45.0609,7.6568]},"contact":{"phone":"+39087673456","facebook":"TakiTai","twitter":"TakiTaiOfficial"}},
+{"_id":"005","name":"MishiSushi","tag":["japanese","unlimitedoffering"],"orderNeeded":false,"maxPeople":75,"review":3.9,"cost":"low","location":{"type":"Point","coordinates":[45.0587,7.6612]},"contact":{}},
+{"_id":"006","name":"IlDivinPanino","tag":["casual","goodforkids"],"orderNeeded":false,"maxPeople":10,"review":4.6,"cost":"low","location":{"type":"Point","coordinates":[45.0645,7.6608]},"contact":{"phone":"+393319416860","website":"ildivinpanino.it"}},
+{"_id":"007","name":"IlTempo","tag":["italian","cosy"],"orderNeeded":true,"maxPeople":100,"review":4.2,"cost":"high","location":{"type":"Point","coordinates":[45.0661,7.6544]},"contact":{"phone":"+398772376563"}},
+{"_id":"008","name":"Smartbar","tag":["bar","morningcoffee"],"orderNeeded":false,"maxPeople":15,"review":4.5,"cost":"low","location":{"type":"Point","coordinates":[45.0643,7.6494]},"contact":{"phone":"+390986756234"}},
+{"_id":"009","name":"Mcdownloads","tag":["fastfood"],"orderNeeded":false,"maxPeople":70,"review":3.9,"cost":"medium","location":{"type":"Point","coordinates":[45.0696,7.6503]},"contact":{"facebook":"McdownloadTorino","website":"mcdownloads.com"}},
+{"_id":"010","name":"OldNavyHamburgar","tag":["hamburgur"],"orderNeeded":false,"maxPeople":100,"review":4.5,"cost":"medium","location":{"type":"Point","coordinates":[45.0772,7.6740]},"contact":{"phone":"+396763452345","facebook":"OldNavyHamburgar"}}
+]
