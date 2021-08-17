@@ -1,0 +1,27 @@
+.pt-nav {
+  padding-top:62px;
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item.active, .list-group-item.active:hover {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.list-group-item-action:hover {
+  background-color: #b1dfbb !important;
+}
+
+.form-check-label.important {
+  color: #dc3545;
+}
+
+.fixed-bottom-right {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+}
