@@ -31,10 +31,17 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
     * [LAB 04 - Trigger](DSTBD/LAB_04)
     * [LAB 05 - Optimizer](DSTBD/LAB_05)
     * [LAB 06 - MongoDB](DSTBD/LAB_06)
-* **[Programmazione di Sistema (PDS)](PDS)** - *a.y. 2020/2021*
-    * [OS/161](PDS/LABS_OS161)
+* **[Programmazione di Sistema (PDS)](PDS)**
+    * [OS/161](PDS/LABS_OS161) - *a.y. 2020/2021*
         * [LAB 01 - Hello, OS/161!](https://github.com/giuseppedandrea/OS161-Labs/tree/d6d1e3a37e846278f0b491f4dd1761b8dd28699b)
         * [LAB 02 - System calls write, read and _exit / Virtual memory management](https://github.com/giuseppedandrea/OS161-Labs/tree/72db2cc9b78857ed8834c97c4c20abceab32fed8)
         * [LAB 03 - Lock and Condition Variable](https://github.com/giuseppedandrea/OS161-Labs/tree/c6639ffb5d0e46df1764490b7304f4a2140ad0b3)
         * [LAB 04 - System calls waitpid, getpid and fork](https://github.com/giuseppedandrea/OS161-Labs/tree/db6d6a16dbbaedb65621c64bbf475ce5eb61c28a)
         * [LAB 05 - System calls open and close / Passing arguments (argv)](https://github.com/giuseppedandrea/OS161-Labs/tree/f76d7a3d8796d114f1c9310923e16ee4c3000b5c)
+    * [API](PDS/LABS_API) - *a.y. 2021/2022*
+        * [LAB 01 - Rust basics](PDS/LABS_API/LAB_01)
+        * [LAB 02 - Custom data types in Rust](PDS/LABS_API/LAB_02)
+        * [LAB 03 - Iterator in Rust](PDS/LABS_API/LAB_03)
+        * [LAB 04 - IO in Rust](PDS/LABS_API/LAB_04)
+        * [LAB 05 - Concurrency in Rust](PDS/LABS_API/LAB_05)
+        * [LAB 06 - Processes in Rust](PDS/LABS_API/LAB_06)
