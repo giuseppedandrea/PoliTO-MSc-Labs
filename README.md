@@ -31,7 +31,7 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
     * [LAB 04 - Trigger](DSTBD/LAB_04)
     * [LAB 05 - Optimizer](DSTBD/LAB_05)
     * [LAB 06 - MongoDB](DSTBD/LAB_06)
-* **[Mobile Application Development (MAD)](MAD)**
+* **[Mobile Application Development (MAD)](MAD)** - *a.y. 2021/2022*
     * [LAB 01 - Kotlin basics](MAD/LAB_01)
     * [LAB 02 - TimeBanking application in Android - Show and edit user profile](MAD/LAB_02)
     * [LAB 03 - TimeBanking application in Android - Ads management](MAD/LAB_03)
