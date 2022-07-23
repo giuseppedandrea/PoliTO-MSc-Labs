@@ -20,6 +20,7 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
     * [LAB 04 - Deployment on the cloud](AW1/LAB_04)
     * [BIG LAB 01 - ToDo list in React](AW1/BIG_LAB_01)
     * [BIG LAB 02 - Full Stack ToDo list](AW1/BIG_LAB_02)
+    * [PROJECT - MemeGenerator](https://github.com/giuseppedandrea/Meme-Generator)
 * **[Data Science e Tecnologie per le Basi di Dati (DSTBD)](DSTBD)** - *a.y. 2020/2021*
     * [HW 01 - Data Warehouse](DSTBD/HW_01)
     * [HW 02 - Data Mining](DSTBD/HW_02)
@@ -38,16 +39,19 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
     * [LAB 04 - TimeBanking application in Android - Storing data in a database](MAD/LAB_04)
     * [LAB 05 - TimeBanking application in Android - Chat, ratings and aesthetic](MAD/LAB_05)
 * **[Programmazione di Sistema (PDS)](PDS)**
-    * [OS/161](PDS/LABS_OS161) - *a.y. 2020/2021*
+    * [LAB - OS/161](PDS/LABS_OS161) - *a.y. 2020/2021*
         * [LAB 01 - Hello, OS/161!](PDS/LABS_OS161/LAB_01)
         * [LAB 02 - System calls write, read and _exit / Virtual memory management](PDS/LABS_OS161/LAB_02)
         * [LAB 03 - Lock and Condition Variable](PDS/LABS_OS161/LAB_03)
         * [LAB 04 - System calls waitpid, getpid and fork](PDS/LABS_OS161/LAB_04)
         * [LAB 05 - System calls open and close / Passing arguments (argv)](PDS/LABS_OS161/LAB_05)
-    * [API](PDS/LABS_API) - *a.y. 2021/2022*
+    * [LAB - API](PDS/LABS_API) - *a.y. 2021/2022*
         * [LAB 01 - Rust basics](PDS/LABS_API/LAB_01)
         * [LAB 02 - Custom data types in Rust](PDS/LABS_API/LAB_02)
         * [LAB 03 - Iterator in Rust](PDS/LABS_API/LAB_03)
         * [LAB 04 - IO in Rust](PDS/LABS_API/LAB_04)
         * [LAB 05 - Concurrency in Rust](PDS/LABS_API/LAB_05)
         * [LAB 06 - Processes in Rust](PDS/LABS_API/LAB_06)
+    * [PROJECT - Shell in OS/161](https://github.com/giuseppedandrea/PoliTO-PDS-Project)
+* **Software Engineering (SE)** - *a.y. 2020/2021*
+    * [PROJECT - EZShop](https://github.com/giuseppedandrea/EZShop)
