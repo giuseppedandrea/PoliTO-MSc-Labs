@@ -1,6 +1,3 @@
-[submodule "PDS/LABS_OS161/os161-base-2.0.3"]
-	path = PDS/LABS_OS161/os161-base-2.0.3
-	url = git@github.com:giuseppedandrea/OS161-Labs.git
 [submodule "MAD/LAB_02/time_banking"]
 	path = MAD/LAB_02/time_banking
 	url = git@github.com:francescofiorella/time_banking.git
@@ -17,3 +14,23 @@
 	path = MAD/LAB_05/time_banking
 	url = git@github.com:francescofiorella/time_banking.git
 	branch = lab_05
+[submodule "PDS/LABS_OS161/LAB_01/OS161-Labs"]
+	path = PDS/LABS_OS161/LAB_01/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+	branch = lab-01
+[submodule "PDS/LABS_OS161/LAB_02/OS161-Labs"]
+	path = PDS/LABS_OS161/LAB_02/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+	branch = lab-02
+[submodule "PDS/LABS_OS161/LAB_03/OS161-Labs"]
+	path = PDS/LABS_OS161/LAB_03/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+	branch = lab-03
+[submodule "PDS/LABS_OS161/LAB_04/OS161-Labs"]
+	path = PDS/LABS_OS161/LAB_04/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+	branch = lab-04
+[submodule "PDS/LABS_OS161/LAB_05/OS161-Labs"]
+	path = PDS/LABS_OS161/LAB_05/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+	branch = lab-05
