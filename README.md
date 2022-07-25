@@ -20,7 +20,7 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
     * [LAB 04 - Deployment on the cloud](AW1/LAB_04)
     * [BIG LAB 01 - ToDo list in React](AW1/BIG_LAB_01)
     * [BIG LAB 02 - Full Stack ToDo list](AW1/BIG_LAB_02)
-    * [PROJECT - MemeGenerator](https://github.com/giuseppedandrea/Meme-Generator)
+    * [PROJ - Meme-Generator](AW1/PROJ)
 * **[Data Science e Tecnologie per le Basi di Dati (DSTBD)](DSTBD)** - *a.y. 2020/2021*
     * [HW 01 - Data Warehouse](DSTBD/HW_01)
     * [HW 02 - Data Mining](DSTBD/HW_02)
@@ -52,6 +52,6 @@ Politecnico di Torino / Master of Science in Computer Engineering - Cybersecurit
         * [LAB 04 - IO in Rust](PDS/LABS_API/LAB_04)
         * [LAB 05 - Concurrency in Rust](PDS/LABS_API/LAB_05)
         * [LAB 06 - Processes in Rust](PDS/LABS_API/LAB_06)
-    * [PROJECT - Shell in OS/161](https://github.com/giuseppedandrea/PoliTO-PDS-Project)
-* **Software Engineering (SE)** - *a.y. 2020/2021*
-    * [PROJECT - EZShop](https://github.com/giuseppedandrea/EZShop)
+    * [PROJ - Shell in OS/161](PDS/PROJ)
+* **[Software Engineering (SE)](SE)** - *a.y. 2020/2021*
+    * [PROJ - EZShop](SE/PROJ)
