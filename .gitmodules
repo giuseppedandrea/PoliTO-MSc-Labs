@@ -34,3 +34,6 @@
 	path = PDS/LABS_OS161/LAB_05/OS161-Labs
 	url = git@github.com:giuseppedandrea/OS161-Labs.git
 	branch = lab-05
+[submodule "AW1/PROJ/Meme-Generator"]
+	path = AW1/PROJ/Meme-Generator
+	url = git@github.com:giuseppedandrea/Meme-Generator.git
