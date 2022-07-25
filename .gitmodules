@@ -40,3 +40,6 @@
 [submodule "SE/PROJ/EZShop"]
 	path = SE/PROJ/EZShop
 	url = git@github.com:giuseppedandrea/EZShop.git
+[submodule "PDS/PROJ/PoliTO-PDS-Project"]
+	path = PDS/PROJ/PoliTO-PDS-Project
+	url = git@github.com:giuseppedandrea/PoliTO-PDS-Project.git
