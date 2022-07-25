@@ -37,3 +37,6 @@
 [submodule "AW1/PROJ/Meme-Generator"]
 	path = AW1/PROJ/Meme-Generator
 	url = git@github.com:giuseppedandrea/Meme-Generator.git
+[submodule "SE/PROJ/EZShop"]
+	path = SE/PROJ/EZShop
+	url = git@github.com:giuseppedandrea/EZShop.git
