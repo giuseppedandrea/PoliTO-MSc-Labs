@@ -1,0 +1,40 @@
+[submodule "AW1/PROJ/MemeGenerator"]
+	path = AW1/PROJ/MemeGenerator
+	url = git@github.com:giuseppedandrea/MemeGenerator.git
+[submodule "MAD/LAB-02/TimeBanking"]
+	path = MAD/LAB-02/TimeBanking
+	url = git@github.com:francescofiorella/time_banking.git
+	branch = lab_02
+[submodule "MAD/LAB-03/TimeBanking"]
+	path = MAD/LAB-03/TimeBanking
+	url = git@github.com:francescofiorella/time_banking.git
+	branch = lab_03
+[submodule "MAD/LAB-04/TimeBanking"]
+	path = MAD/LAB-04/TimeBanking
+	url = git@github.com:francescofiorella/time_banking.git
+	branch = lab_04
+[submodule "MAD/LAB-05/TimeBanking"]
+	path = MAD/LAB-05/TimeBanking
+	url = git@github.com:francescofiorella/time_banking.git
+	branch = lab_05
+[submodule "PDS/LABS-OS161/LAB-01/OS161-Labs"]
+	path = PDS/LABS-OS161/LAB-01/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+[submodule "PDS/LABS-OS161/LAB-02/OS161-Labs"]
+	path = PDS/LABS-OS161/LAB-02/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+[submodule "PDS/LABS-OS161/LAB-03/OS161-Labs"]
+	path = PDS/LABS-OS161/LAB-03/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+[submodule "PDS/LABS-OS161/LAB-04/OS161-Labs"]
+	path = PDS/LABS-OS161/LAB-04/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+[submodule "PDS/LABS-OS161/LAB-05/OS161-Labs"]
+	path = PDS/LABS-OS161/LAB-05/OS161-Labs
+	url = git@github.com:giuseppedandrea/OS161-Labs.git
+[submodule "PDS/PROJ/OS161-Shell"]
+	path = PDS/PROJ/OS161-Shell
+	url = git@github.com:giuseppedandrea/OS161-Shell.git
+[submodule "SE/PROJ/EZShop"]
+	path = SE/PROJ/EZShop
+	url = git@github.com:giuseppedandrea/EZShop.git
